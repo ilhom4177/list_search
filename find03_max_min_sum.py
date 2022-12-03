@@ -14,5 +14,5 @@ def find_max_min_sum(data):
         if min1>data[i]:
             min1=data[i]
         i+=1
-    return [max1,min1]  
+    return max1+min1  
 print(find_max_min_sum([1,2,3,4,5,6]))
