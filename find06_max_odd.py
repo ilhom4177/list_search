@@ -6,10 +6,10 @@ def find_max_odd(data):
     returns: maximum odd number in the list
     """
     i = 0
-    n = data[2]
+    n = data[0]
     while i < len(data):
         if n < data[i] and data[i] % 2 == 1:
-            n = data[i]
+            n = data[0]
         i += 1
     return n
-print(find_max_odd([11, 7, 5, 4, 9]))
+print(find_max_odd([1, 8, 3, 8, 5]))
