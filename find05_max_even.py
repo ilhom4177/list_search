@@ -8,7 +8,7 @@ def find_max_even(data):
     i=0 
     max1 = 0
     while i < len(data):
-        if max1 < data[i] and data[i] % 2 == 0:
+        if max1 < data[i] and data[i] % 2 == 1:
             max1 = data[i]
         i += 1
     return max1 
